@@ -49,7 +49,7 @@ def all_products(request):
     context = {
         'products': products,
         'search_term': query,
-        'current_categores': categories,
+        'current_categories': categories,
         'current_sorting': current_sorting
     }
 
